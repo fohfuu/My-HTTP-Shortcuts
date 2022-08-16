@@ -1,0 +1,66 @@
+{
+  "categories": [
+    {
+      "id": "85a33769-fe20-4f89-8b5d-1a993ed9cbc6",
+      "name": "Shortcuts",
+      "shortcuts": [
+        {
+          "description": "Search WayBack Machine for a URL.",
+          "executionType": "browser",
+          "iconName": "bitsies_bank",
+          "id": "0fba4f5e-3a9c-4fda-94fa-a28f0e1adfb3",
+          "launcherShortcut": true,
+          "name": "Archive URL",
+          "quickSettingsTileShortcut": true,
+          "responseHandling": {},
+          "url": "https://web.archive.org/web/*/{{b4407bf2-5027-4eeb-98de-b878a5b22104}}"
+        },
+        {
+          "description": "Search Sci-Hub for a URL. working??",
+          "executionType": "browser",
+          "iconName": "sci-hub-icon.png",
+          "id": "8dddbaed-181b-4f87-96ad-8a413cb6401f",
+          "launcherShortcut": true,
+          "name": "Sci-Hub",
+          "quickSettingsTileShortcut": true,
+          "responseHandling": {},
+          "url": "https://sci-hub.ru/{{b4407bf2-5027-4eeb-98de-b878a5b22104}}"
+        },
+        {
+          "description": "Open as URL in browser",
+          "executionType": "browser",
+          "iconName": "flat_color_brightness_6",
+          "id": "b2c4e640-70eb-4c8e-8aa5-9e03cc17409e",
+          "name": "URL",
+          "responseHandling": {},
+          "url": "https://{{b4407bf2-5027-4eeb-98de-b878a5b22104}}"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "flags": 1,
+      "id": "b4407bf2-5027-4eeb-98de-b878a5b22104",
+      "key": "WebsiteURL",
+      "title": "URL:",
+      "type": "text"
+    },
+    {
+      "flags": 1,
+      "id": "8fc58402-a0b2-425f-8898-eee6f0bf590c",
+      "key": "ImageURL",
+      "title": "Image URL",
+      "type": "text",
+      "urlEncode": true
+    },
+    {
+      "flags": 1,
+      "id": "aa005ed9-19f4-4942-a620-a58c4f20e7ec",
+      "key": "image_file",
+      "title": "Image",
+      "type": "text"
+    }
+  ],
+  "version": 52
+}
