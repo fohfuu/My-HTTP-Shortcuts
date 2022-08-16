@@ -18,7 +18,7 @@
         {
           "description": "Search Sci-Hub for a URL. working??",
           "executionType": "browser",
-          "iconName": "custom-icon_x1660684606326.png",
+          "iconName": "white_feather",
           "id": "8dddbaed-181b-4f87-96ad-8a413cb6401f",
           "launcherShortcut": true,
           "name": "Sci-Hub",
